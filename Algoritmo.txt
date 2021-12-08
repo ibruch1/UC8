@@ -2,12 +2,19 @@ using System;
 
 
 var idade: Inteiro;
-var evento;
+var evento, Dataevento;
 var user;
 let evento = newData(2021,11,06);
 
 console.log("data do evento: " + evento.getData() + "/" + (evento.getMonth() + "/" + 1) + "/" + evento.getFullYear());
 
-if ()
+if (Dataevento.getTime()>evento){
+   
+   while(user<101){ 
+        console.log("conclua o cadastro, usuário/idade: ", user,idade);
+        if(idade>=18){
+        console.log("continue o cadastro");
+    }}
+}
 
 
